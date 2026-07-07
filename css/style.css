@@ -832,3 +832,93 @@ html {
     font-size:20px;
     margin:0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================= MOBILE FIX ================= */
+
+@media (max-width: 768px){
+
+.hero{
+    height:auto;
+    min-height:100vh;
+    padding:120px 15px 70px;
+}
+
+.hero-content h1{
+    font-size:38px;
+}
+
+.hero-content p{
+    width:100%;
+    font-size:16px;
+}
+
+.navbar-brand{
+    font-size:22px;
+}
+
+.section-title{
+    font-size:30px;
+}
+
+.about,
+.story,
+.timeline,
+.documents,
+#video,
+#help{
+    padding:60px 0;
+}
+
+.story-card,
+.timeline-item,
+.help-box{
+    padding:20px;
+}
+
+.image-card img{
+    height:auto;
+}
+
+.main-btn,
+.btn{
+    width:100%;
+}
+
+video{
+    width:100%;
+}
+
+.footer-title{
+    font-size:32px;
+}
+
+.footer-text{
+    font-size:16px;
+}
+
+}
